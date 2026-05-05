@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dssp-May-05-01
+  description: Node app that displays time - named Dssp-May-05-01
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/Dssp-May-05-01
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/Dssp-May-05-01/main
+    argocd/app-name: dssp-may-05-01
+    backstage.io/kubernetes-id: Dssp-May-05-01
+    backstage.io/kubernetes-namespace: default
+    sonarqube.org/project-key: dssp-may-05-01
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
